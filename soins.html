@@ -36,7 +36,17 @@
     <a class="mobile-menu-cta" href="contact.html">Réserver</a>
   </div>
 </header>
-<body>
+<script>
+  const menuButton = document.querySelector('.mobile-menu-button');
+  const menuPanel = document.querySelector('.mobile-menu-panel');
+
+  if (menuButton && menuPanel) {
+    menuButton.addEventListener('click', function () {
+      menuButton.classList.toggle('active');
+      menuPanel.classList.toggle('active');
+    });
+  }
+</script><body>
 <header class="nav">
   <a href="index.html" class="brand">
     <span class="brand-logo-wrap">
