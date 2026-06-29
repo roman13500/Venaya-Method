@@ -1,149 +1,52 @@
 <!doctype html>
 <html lang="fr">
-<header class="nav">
-  <a href="index.html" class="brand">
-    <span class="brand-logo-wrap">
-      <img src="logo.jpg" alt="Logo Venaya Method">
-    </span>
-    <span>
-      <span class="brand-title">VENAYA</span>
-      <span class="brand-subtitle">Method</span>
-    </span>
-  </a>
-
-  <button class="mobile-menu-button" aria-label="Ouvrir le menu">
-    <span></span>
-    <span></span>
-  </button>
-
-  <nav class="menu">
-    <a href="index.html">Accueil</a>
-    <a href="methode.html">La méthode</a>
-    <a href="soins.html">Soins</a>
-    <a href="formation.html">Formation</a>
-    <a href="academie.html">Académie</a>
-    <a href="experience.html">Expérience</a>
-    <a href="manon.html">Manon</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <div class="mobile-menu-panel">
-    <a href="index.html">Accueil</a>
-    <a href="methode.html">La méthode</a>
-    <a href="soins.html">Soins</a>
-    <a href="formation.html">Formation</a>
-    <a href="contact.html">Contact</a>
-    <a class="mobile-menu-cta" href="contact.html">Réserver</a>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formation Venaya Method | Formation drainage lymphatique et bien-être en PACA</title><meta name="description" content="Découvrez la formation Venaya Method : drainage lymphatique brésilien, posture professionnelle, énergétique et accompagnement en Provence-Alpes-Côte d’Azur.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head><body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="logo-circle"><img src="logo.jpg" alt="Logo Venaya Method"></span>
+      <span><span class="brand-word">VENAYA</span><span class="brand-sub">Method</span></span>
+    </a>
+    <nav class="desktop-menu">
+      <a href="methode.html">La méthode</a>
+      <a href="soins.html">Soins</a>
+      <a href="formation.html">Formation</a>
+      <a href="academie.html">Académie</a>
+      <a href="experience.html">Expérience</a>
+      <a href="manon.html">Manon</a>
+      <a class="header-cta" href="contact.html">Contact</a>
+    </nav>
+    <button class="mobile-toggle" aria-label="Ouvrir le menu"><span></span><span></span></button>
   </div>
-</header>
-<script>
-  const menuButton = document.querySelector('.mobile-menu-button');
-  const menuPanel = document.querySelector('.mobile-menu-panel');
-
-  if (menuButton && menuPanel) {
-    menuButton.addEventListener('click', function () {
-      menuButton.classList.toggle('active');
-      menuPanel.classList.toggle('active');
-    });
-  }
-</script><body>
-<header class="nav">
-  <a href="index.html" class="brand">
-    <span class="brand-logo-wrap">
-      <img src="logo.jpg" alt="Logo Venaya Method">
-    </span>
-    <span>
-      <span class="brand-title">VENAYA</span>
-      <span class="brand-subtitle">Method</span>
-    </span>
-  </a>
-
-  <nav class="menu">
+  <nav class="mobile-panel">
+    <a href="index.html">Accueil</a>
     <a href="methode.html">La méthode</a>
     <a href="soins.html">Soins</a>
     <a href="formation.html">Formation</a>
-    <a href="academie.html">Académie</a>
-    <a href="experience.html">Expérience</a>
-    <a href="manon.html">Manon</a>
     <a href="contact.html">Contact</a>
+    <div class="mobile-actions">
+      <a class="dark" href="https://wa.me/33622923411?text=Bonjour%20Manon%20%F0%9F%A4%8D%20Je%20souhaiterais%20avoir%20des%20renseignements%20concernant%20un%20soin%20Venaya%20Method." target="_blank" rel="noopener">Réserver un soin</a>
+      <a class="light" href="https://calendly.com/manon-trigueros/appel-decouverte-formation-venaya-method" target="_blank" rel="noopener">Appel formation</a>
+    </div>
   </nav>
 </header>
 
-
-<main>
-  <section class="page-hero">
-    <div class="eyebrow">Formation Venaya Method</div>
-    <h1>Et si cette formation devenait le début de votre nouvelle vie professionnelle ?</h1>
-    <p>Une formation en présentiel, en petit groupe, pour apprendre une méthode signature et développer une posture de praticienne confiante, alignée et professionnelle.</p>
-    <div class="btn-row">
-      <a class="btn" href="https://calendly.com/manon-trigueros/appel-decouverte-formation-venaya-method" target="_blank">Réserver un appel découverte</a>
-      <a class="btn-ghost" href="contact.html">Recevoir le programme</a>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="split">
-      <div>
-        <div class="eyebrow">Transformation</div>
-        <h2>La confiance ne vient pas avec un certificat.</h2>
-        <p class="quote">Elle vient de ton expérience, de tes mains, de chaque massage que tu oses donner.</p>
-        <p>La formation Venaya Method ne transmet pas seulement un protocole. Elle accompagne aussi la posture, la relation cliente, la présence, la précision et la légitimité.</p>
-      </div>
-      <div class="photo-frame formation">
-        <img src="formation.jpg" alt="Formation Venaya Method en présentiel">
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="center">
-      <div class="eyebrow">Programme</div>
-      <h2>Un parcours en 4 jours, structuré et intensif.</h2>
-    </div>
-    <div class="timeline">
-      <div class="step"><div class="step-num">01</div><div><h3>Fondations</h3><p>Accueil, intentions, anatomie lymphatique, introduction à l'énergie et premières pratiques.</p></div></div>
-      <div class="step"><div class="step-num">02</div><div><h3>Technique</h3><p>Apprentissage des gestes, posture de praticienne, rythme, pression, zones du corps et corrections.</p></div></div>
-      <div class="step"><div class="step-num">03</div><div><h3>Approfondissement</h3><p>Révision complète, soin énergétique, relation cliente, confiance, pratique guidée et bonus pierres chaudes.</p></div></div>
-      <div class="step"><div class="step-num">04</div><div><h3>Évaluation</h3><p>Mise en situation réelle, accueil, protocole complet, corrections finales, certification et projection professionnelle.</p></div></div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="split">
-      <div class="photo-frame">
-        <img src="cahier.jpg" alt="Cahier pédagogique Venaya Method">
-      </div>
-      <div>
-        <div class="eyebrow">Support pédagogique</div>
-        <h2>Une méthode structurée, pas une simple démonstration.</h2>
-        <p>Chaque stagiaire avance avec un cahier de formation complet, des repères clairs, des corrections, des exercices et un accompagnement.</p>
-      </div>
-    </div>
-  </section>
-</main>
-
-
+<main><section class="page-hero"><div class="eyebrow">Formation Venaya Method</div><h1>Et si cette formation devenait le début de votre nouvelle vie professionnelle ?</h1><p>Une formation en présentiel, en petit groupe, pour apprendre une méthode signature et développer une posture de praticienne confiante, alignée et professionnelle.</p><div class="btn-row"><a class="btn" href="https://calendly.com/manon-trigueros/appel-decouverte-formation-venaya-method" target="_blank" rel="noopener">Réserver un appel découverte</a><a class="btn-secondary" href="contact.html">Poser une question</a></div></section>
+<section class="section"><div class="split"><div><div class="eyebrow">Transmission</div><h2>La confiance ne vient pas avec un certificat.</h2><p class="quote">Elle vient de ton expérience, de tes mains, de chaque massage que tu oses donner.</p><p>La formation Venaya Method transmet une technique, mais surtout une posture : accueillir, observer, ressentir, corriger, progresser et prendre confiance.</p></div><div class="photo-frame"><img src="formation.jpg" alt="Formation Venaya Method en présentiel"></div></div></section>
+<section class="section"><div class="center"><div class="eyebrow">Programme</div><h2>4 jours pour apprendre, pratiquer et intégrer.</h2></div><div class="timeline" style="margin-top:54px"><div class="step"><div class="step-number">01</div><div><h3>Fondations</h3><p>Anatomie lymphatique, bienfaits, contre-indications, énergétique et premières pratiques.</p></div></div><div class="step"><div class="step-number">02</div><div><h3>Technique</h3><p>Gestes, rythme, pression, posture, zones du corps et corrections individualisées.</p></div></div><div class="step"><div class="step-number">03</div><div><h3>Approfondissement</h3><p>Révision complète, soin énergétique, relation cliente, pratique guidée et confiance.</p></div></div><div class="step"><div class="step-number">04</div><div><h3>Évaluation</h3><p>Mise en situation réelle, protocole complet, corrections finales et certification.</p></div></div></div></section></main>
+<a class="whatsapp-float" href="https://wa.me/33622923411?text=Bonjour%20Manon%20%F0%9F%A4%8D%20Je%20souhaiterais%20avoir%20des%20renseignements%20concernant%20un%20soin%20Venaya%20Method." target="_blank" rel="noopener">WA</a>
 <footer class="footer">
-  <div>
-    <span class="footer-logo-wrap">
-      <img src="logo.jpg" alt="Logo Venaya Method">
-    </span>
-    <h3>Venaya Method</h3>
-    <p>Une méthode corps & âme née de la rencontre entre le soin du corps, l'énergie et la transmission.</p>
-  </div>
-  <div>
-    <h3>Univers</h3>
-    <p><a href="soins.html">Recevoir un soin</a></p>
-    <p><a href="formation.html">Se former</a></p>
-    <p><a href="academie.html">Académie Venaya</a></p>
-    <p><a href="experience.html">Venaya Experience</a></p>
-  </div>
-  <div>
-    <h3>Contact</h3>
-    <p>Aix-en-Provence · Vitrolles · Provence</p>
-    <p>Instagram : @venaya_method</p>
-    <p><a href="contact.html">Réserver / demander le programme</a></p>
+  <div class="footer-inner">
+    <div><div class="footer-logo"><img src="logo.jpg" alt="Logo Venaya Method"></div><h3>Venaya Method</h3><p>Une méthode corps & âme, entre soin, transmission et transformation.</p></div>
+    <div><h3>Explorer</h3><p><a href="soins.html">Réserver un soin</a></p><p><a href="formation.html">Découvrir la formation</a></p><p><a href="academie.html">Venaya Academy</a></p><p><a href="experience.html">Venaya Experience</a></p></div>
+    <div><h3>Réserver</h3><p><a href="https://wa.me/33622923411?text=Bonjour%20Manon%20%F0%9F%A4%8D%20Je%20souhaiterais%20avoir%20des%20renseignements%20concernant%20un%20soin%20Venaya%20Method." target="_blank" rel="noopener">WhatsApp : +33 6 22 92 34 11</a></p><p><a href="https://calendly.com/manon-trigueros/appel-decouverte-formation-venaya-method" target="_blank" rel="noopener">Appel découverte formation</a></p><p><a href="https://www.instagram.com/venaya_method/" target="_blank" rel="noopener">Instagram @venaya_method</a></p></div>
   </div>
 </footer>
-</body>
-</html>
+<script src="script.js"></script>
+</body></html>
